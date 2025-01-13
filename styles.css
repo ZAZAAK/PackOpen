@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIFA Pack Opening Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>FIFA Pack Opening Game</h1>
+    <div class="pack-selection">
+      <button onclick="openPack('bronze')">Open Bronze Pack</button>
+      <button onclick="openPack('silver')">Open Silver Pack</button>
+      <button onclick="openPack('gold')">Open Gold Pack</button>
+    </div>
+    <div id="pack-animation" class="hidden">
+      <p>Opening Pack...</p>
+    </div>
+    <div id="pack-results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
